@@ -52,15 +52,18 @@ root_level_common_tags = {
 ```hcl
 terraform init
 ```
-1. Review execution plan:
+2. Review execution plan:
 ```hcl
 terraform plan
 ```
-1. Apply configuration:
+3. Apply configuration:
 ```hcl
 terraform apply
 ```
-
+4. (Optional) Destroy resources when no longer needed:
+```hcl
+terraform destroy
+```
 ## Outputs
 After successful execution, the following output will be available:
 ```hcl
