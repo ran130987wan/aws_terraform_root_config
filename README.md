@@ -5,6 +5,7 @@
 This Terraform root configuration manages AWS infrastructure by calling modules from the [aws_terraform_module](https://github.com/ran130987wan/aws_terraform_module) repository. The current implementation creates a VPC with configurable parameters and standardized tagging.
 
 ## Project Structure
+```
 ├── README.md
 ├── .gitignore
 ├── root_config/vpc/versions.tf # Terraform version and provider requirements
@@ -13,7 +14,7 @@ This Terraform root configuration manages AWS infrastructure by calling modules 
 ├── root_config/vpc/locals.tf # Common tag definitions
 ├── root_config/vpc/main.tf # Module declarations
 └── root_config/vpc/outputs.tf # Output values
-
+```
 
 ## Features
 
